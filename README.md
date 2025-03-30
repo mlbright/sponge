@@ -5,7 +5,7 @@
 ## Usage
 
 ```sh
-cat README.md | sponge README.md
+cat README.md | grep -v 'TODO' | sponge README.md
 ```
 
 ## Installation
